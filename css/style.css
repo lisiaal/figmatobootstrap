@@ -1,0 +1,152 @@
+body {
+    font-family: poppins, sans-serif;
+    background-color: #E5E5E5;
+}
+
+.feature {
+    padding: 108px 0;
+}
+
+.text_header {
+    font-size: 55px;
+    line-height: 56px;
+    font-weight: 700;
+    color: #1B264F;
+}
+
+.text_header span {
+    color: #506BCA;
+}
+
+.feature_container {
+    margin-top: 80px;
+}
+
+.first_row_img {
+    width: 183.5px;
+}
+
+.card {
+    padding: 0 !important;
+    border-radius: 8px;
+}
+
+.row_img {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.card-img {
+    height: 100%;
+}
+
+.top_image {
+    height: 100%;
+}
+
+.bottom_image {
+    margin-top: 2px;
+    height: 100%;
+}
+
+.card-body {
+    padding: 40px 20px 30px 30.5px !important;
+}
+
+h5 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #353844;
+}
+
+.description {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    color: #353844;
+    font-family: nunito-sans, sans-serif;
+    font-style: normal;
+}
+
+ul {
+    list-style: none;
+    padding: 12px 0 12px 0 !important;
+    margin: 0;
+}
+
+ul li:before {
+    content: "\2022";
+    color: #D2AD81;
+}
+
+li {
+    color: #353844;
+    font-size: 15px;
+    line-height: 26px;
+    font-family: nunito-sans, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.full {
+    height: 100%;
+}
+
+.btn {
+    font-family: poppins, sans-serif !important;
+    background-color: #1B264F !important;
+    padding: 0 58px;
+    line-height: 60px;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    border-radius: 12px;
+}
+
+.btn span {
+    padding: 0 20px;
+}
+
+@media only screen and (max-width: 480px) {
+    .card {
+        margin-right: 0 !important;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .card-img {
+        height: 100% !important;
+        width: auto !important;
+        border-radius: 12px;
+        padding-top: 10px;
+    }
+
+    .row {
+        margin-top: 0 !important;
+    }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+    .display_flex {
+        display: flex !important;
+        flex-direction: column !important;
+        margin-top: 0 !important;
+    }
+
+    .card {
+        margin-right: 0 !important;
+        margin-top: 20px !important;
+    }
+
+    .top_image {
+        width: 100%;
+    }
+
+    .bottom_image {
+        width: 100%;
+    }
+
+}
